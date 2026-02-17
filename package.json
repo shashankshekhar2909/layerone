@@ -1,0 +1,21 @@
+{
+  "name": "layerone",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "npm@10.5.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run -ws build",
+    "build:tokens": "npm --workspace @layerone/tokens run build",
+    "build:theme": "npm --workspace @layerone/theme run build",
+    "lint": "echo 'lint placeholder'",
+    "test": "echo 'test placeholder'"
+  },
+  "optionalDependencies": {
+    "@next/swc-darwin-arm64": "14.2.35",
+    "@next/swc-darwin-x64": "14.2.35"
+  }
+}

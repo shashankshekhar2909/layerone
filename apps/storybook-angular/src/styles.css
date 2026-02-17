@@ -1,0 +1,5 @@
+@import "../../../packages/theme/dist/index.css";
+
+:root {
+  font-family: var(--typography-font-family-base);
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@layerone/storybook-angular",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "storybook": "ng run storybook-angular:storybook",
+    "build-storybook": "ng run storybook-angular:build-storybook"
+  },
+  "dependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.6.2",
+    "zone.js": "^0.14.4"
+  },
+  "devDependencies": {
+    "@angular/cli": "^17.3.0",
+    "@angular-devkit/build-angular": "^17.3.0",
+    "@storybook/addon-essentials": "^8.5.0",
+    "@storybook/addon-interactions": "^8.5.0",
+    "@storybook/angular": "^8.5.0",
+    "@storybook/testing-library": "^0.2.2",
+    "typescript": "^5.4.5"
+  }
+}

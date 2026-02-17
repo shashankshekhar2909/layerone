@@ -1,0 +1,18 @@
+{
+  "dark": {
+    "color": {
+      "surface": { "value": "#0B1220", "type": "color" },
+      "surfaceSubtle": { "value": "#111A2E", "type": "color" },
+      "text": { "value": "#E2E8F0", "type": "color" },
+      "textSubtle": { "value": "#94A3B8", "type": "color" },
+      "border": { "value": "#1F2A44", "type": "color" },
+      "primary": { "value": "#3B82F6", "type": "color" },
+      "secondary": { "value": "#38BDF8", "type": "color" },
+      "focus": { "value": "#60A5FA", "type": "color" }
+    },
+    "shadow": {
+      "1": { "value": "0 1px 2px rgba(15, 23, 42, 0.5)", "type": "shadow" },
+      "2": { "value": "0 4px 12px rgba(15, 23, 42, 0.6)", "type": "shadow" }
+    }
+  }
+}
