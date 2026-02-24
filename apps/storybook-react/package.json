@@ -21,5 +21,10 @@
     "typescript": "^5.4.5",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shashankshekhar2909/layerone.git",
+    "directory": "apps/storybook-react"
   }
 }

@@ -25,5 +25,10 @@
   "optionalDependencies": {
     "@next/swc-darwin-arm64": "14.2.35",
     "@next/swc-darwin-x64": "14.2.35"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shashankshekhar2909/layerone.git",
+    "directory": "apps/docs"
   }
 }

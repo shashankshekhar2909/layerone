@@ -17,5 +17,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shashankshekhar2909/layerone.git",
+    "directory": "packages/ui-react"
   }
 }

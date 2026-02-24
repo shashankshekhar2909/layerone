@@ -27,5 +27,10 @@
     "@storybook/angular": "^8.5.0",
     "@storybook/testing-library": "^0.2.2",
     "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shashankshekhar2909/layerone.git",
+    "directory": "apps/storybook-angular"
   }
 }
