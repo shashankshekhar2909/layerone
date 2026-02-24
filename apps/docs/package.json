@@ -1,7 +1,7 @@
 {
-  "name": "@layerone/docs",
+  "name": "@layerone-theme/docs",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "NEXT_DISABLE_SWC_DOWNLOAD=1 next dev",
@@ -11,10 +11,10 @@
   "dependencies": {
     "@next/swc-wasm-nodejs": "14.2.33",
     "next": "^14.2.5",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "@layerone/theme": "0.0.0",
-    "@layerone/tokens": "0.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@layerone-theme/theme": "0.2.0",
+    "@layerone-theme/tokens": "0.2.0"
   },
   "devDependencies": {
     "typescript": "^5.4.5",

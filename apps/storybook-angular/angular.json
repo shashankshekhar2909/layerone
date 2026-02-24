@@ -10,7 +10,7 @@
         "storybook": {
           "builder": "@storybook/angular:start-storybook",
           "options": {
-            "configDir": "apps/storybook-angular/.storybook",
+            "configDir": ".storybook",
             "browserTarget": "storybook-angular:build",
             "port": 6006,
             "compodoc": false
@@ -19,9 +19,9 @@
         "build-storybook": {
           "builder": "@storybook/angular:build-storybook",
           "options": {
-            "configDir": "apps/storybook-angular/.storybook",
+            "configDir": ".storybook",
             "browserTarget": "storybook-angular:build",
-            "outputDir": "apps/storybook-angular/storybook-static",
+            "outputDir": "storybook-static",
             "compodoc": false
           }
         },
@@ -29,12 +29,12 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/storybook-angular",
-            "index": "apps/storybook-angular/src/index.html",
-            "main": "apps/storybook-angular/src/main.ts",
+            "index": "src/index.html",
+            "main": "src/main.ts",
             "polyfills": ["zone.js"],
-            "tsConfig": "apps/storybook-angular/tsconfig.app.json",
-            "assets": ["apps/storybook-angular/src/favicon.ico", "apps/storybook-angular/src/assets"],
-            "styles": ["apps/storybook-angular/src/styles.css"],
+            "tsConfig": "tsconfig.app.json",
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           }
         }

@@ -3,13 +3,13 @@
 ## Build
 
 ```
-npm run build -w @layerone/ui-angular
+npm run build -w @layerone-theme/ui-angular
 ```
 
 ## Testing
 
 ```
-npm run test -w @layerone/ui-angular
+npm run test -w @layerone-theme/ui-angular
 ```
 
 ## Angular conventions

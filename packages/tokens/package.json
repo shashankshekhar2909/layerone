@@ -1,6 +1,6 @@
 {
-  "name": "@layerone/tokens",
-  "version": "0.0.0",
+  "name": "@layerone-theme/tokens",
+  "version": "0.2.0",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,5 +9,8 @@
   ],
   "scripts": {
     "build": "node scripts/build.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

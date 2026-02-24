@@ -30,8 +30,8 @@ const copyDir = async (from, to) => {
 };
 
 const build = async () => {
-  await run('npm', ['run', 'build-storybook', '-w', '@layerone/storybook-angular']);
-  await run('npm', ['run', 'build-storybook', '-w', '@layerone/storybook-react']);
+  await run('npm', ['run', 'build-storybook', '-w', '@layerone-theme/storybook-angular']);
+  await run('npm', ['run', 'build-storybook', '-w', '@layerone-theme/storybook-react']);
 
   const angularOut = path.join(repoRoot, 'apps', 'storybook-angular', 'storybook-static');
   const reactOut = path.join(repoRoot, 'apps', 'storybook-react', 'storybook-static');

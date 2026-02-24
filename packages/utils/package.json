@@ -1,6 +1,6 @@
 {
-  "name": "@layerone/utils",
-  "version": "0.0.0",
+  "name": "@layerone-theme/utils",
+  "version": "0.2.0",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,6 +8,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "echo 'build placeholder'"
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

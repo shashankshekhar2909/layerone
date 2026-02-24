@@ -1,11 +1,12 @@
 {
-  "name": "@layerone/storybook-angular",
+  "name": "@layerone-theme/storybook-angular",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "storybook": "ng run storybook-angular:storybook",
-    "build-storybook": "ng run storybook-angular:build-storybook"
+    "build-storybook": "ng run storybook-angular:build-storybook",
+    "build": "npm run build-storybook"
   },
   "dependencies": {
     "@angular/common": "^17.3.0",

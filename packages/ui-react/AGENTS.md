@@ -3,13 +3,13 @@
 ## Build
 
 ```
-npm run build -w @layerone/ui-react
+npm run build -w @layerone-theme/ui-react
 ```
 
 ## Testing
 
 ```
-npm run test -w @layerone/ui-react
+npm run test -w @layerone-theme/ui-react
 ```
 
 ## React conventions

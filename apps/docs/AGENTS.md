@@ -3,19 +3,19 @@
 ## Install
 
 ```
-npm install -w @layerone/docs
+npm install -w @layerone-theme/docs
 ```
 
 ## Run Dev Server
 
 ```
-npm run dev -w @layerone/docs
+npm run dev -w @layerone-theme/docs
 ```
 
 ## Build
 
 ```
-npm run build -w @layerone/docs
+npm run build -w @layerone-theme/docs
 ```
 
 ## Notes

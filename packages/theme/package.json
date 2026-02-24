@@ -1,6 +1,6 @@
 {
-  "name": "@layerone/theme",
-  "version": "0.0.0",
+  "name": "@layerone-theme/theme",
+  "version": "0.2.0",
   "type": "module",
   "main": "dist/index.css",
   "files": [
@@ -10,6 +10,9 @@
     "build": "node scripts/build.mjs"
   },
   "dependencies": {
-    "@layerone/tokens": "0.0.0"
+    "@layerone-theme/tokens": "0.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

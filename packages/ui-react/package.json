@@ -1,6 +1,6 @@
 {
-  "name": "@layerone/ui-react",
-  "version": "0.0.0",
+  "name": "@layerone-theme/ui-react",
+  "version": "0.2.0",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,11 +8,14 @@
     "dist"
   ],
   "dependencies": {
-    "@layerone/tokens": "0.0.0",
-    "@layerone/theme": "0.0.0",
-    "@layerone/utils": "0.0.0"
+    "@layerone-theme/tokens": "0.2.0",
+    "@layerone-theme/theme": "0.2.0",
+    "@layerone-theme/utils": "0.2.0"
   },
   "scripts": {
-    "build": "echo 'build placeholder'"
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

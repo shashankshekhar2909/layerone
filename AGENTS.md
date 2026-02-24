@@ -38,19 +38,19 @@ npm run build
 React:
 
 ```
-npm run storybook -w @layerone/storybook-react
+npm run storybook -w @layerone-theme/storybook-react
 ```
 
 Angular:
 
 ```
-npm run storybook -w @layerone/storybook-angular
+npm run storybook -w @layerone-theme/storybook-angular
 ```
 
 ### Docs
 
 ```
-npm run dev -w @layerone/docs
+npm run dev -w @layerone-theme/docs
 ```
 
 ## Component Standards
@@ -86,7 +86,7 @@ npm run build --if-present
 
 - Components: PascalCase
 - Tokens: kebab-case with prefix (`color-primary`, `spacing-md`)
-- Packages: `@layerone/<name>`
+- Packages: `@layerone-theme/<name>`
 
 ## Pull Request Requirements
 

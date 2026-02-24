@@ -2,3 +2,10 @@ node_modules/
 dist/
 *.log
 .DS_Store
+.next/
+storybook-static/
+apps/storybook-angular/storybook-static/
+apps/storybook-react/storybook-static/
+apps/docs/public/storybook/
+.npmrc
+apps/storybook-angular/.angular/
